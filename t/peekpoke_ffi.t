@@ -46,9 +46,9 @@ subtest oo => sub {
 
   is( $pp->peek(10), -4200 );
 
-  $pp->poke(11, 99);
+  $pp->poke(11, -9999);
 
-  is( $rec->foo(11), 99 );
+  is( $rec->foo(11), -9999 );
 
 };
 
