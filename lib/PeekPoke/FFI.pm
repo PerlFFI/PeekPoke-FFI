@@ -35,7 +35,7 @@ need to reach for this particular tool.
 
 =cut
 
-my $ffi = FFI::Platypus->new( api => 1, lib => [undef], lang => 'ASM' );
+my $ffi = FFI::Platypus->new( api => 1, lib => [undef], lang => 'C' );
 
 =head1 CONSTRUCTOR
 
@@ -109,7 +109,7 @@ sub peek
 {
   my $self = _self(\@_);
   my($offset) = @_;
-  $ffi->cast('opaque' => $self->type . '[1]', $self->{base} + $offset * $self->{size})->[0];
+  $ffi->cast('opaque' => $self->{type} . '[1]', $self->{base} + $offset * $self->{size})->[0];
 }
 
 =head2 poke
