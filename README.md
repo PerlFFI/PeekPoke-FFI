@@ -12,7 +12,7 @@ poke( 0xdeadbeaf, $value + 1 );
 
 # OO-interface
 use PeekPoke::FFI;
-my $pp = PeekPoke::FFI->new( type => 'sint32', offset => 0xdeadbeaf );
+my $pp = PeekPoke::FFI->new( type => 'sint32', base => 0xdeadbeaf );
 my $value = $pp->peek( 0xdeadbeaf );
 $pp->poke( 0xdeadbeaf, 0 - $value );
 ```

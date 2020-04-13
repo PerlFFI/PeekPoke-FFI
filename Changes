@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}},
 
 {{$NEXT}}
+
+0.02      2020-04-13 06:47:21 -0600
   - Fix bug in poke where it was only getting one byte for types
     with more than one byte (gh#2)
 
