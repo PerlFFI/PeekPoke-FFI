@@ -50,6 +50,8 @@ subtest oo => sub {
 
   is( $rec->foo(11), -9999 );
 
+  is( $pp->peek(11), -9999 );
+
 };
 
 done_testing;
