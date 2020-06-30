@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}},
 
 {{$NEXT}}
+  - Move to PerlFFI org (gh#3)
 
 0.02      2020-04-13 06:47:21 -0600
   - Fix bug in poke where it was only getting one byte for types
