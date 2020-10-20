@@ -145,6 +145,10 @@ extreme caution in production.
 This is an XS module that has been around for donkey's years.  It only works
 with the native Perl integer values (IV) which is not usually what I want.
 
+=item L<Proc::Memory>
+
+BASIC style Peek/Poke via L<Alien::libvas>.
+
 =back
 
 =cut
