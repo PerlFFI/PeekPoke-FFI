@@ -79,6 +79,10 @@ extreme caution in production.
     This is an XS module that has been around for donkey's years.  It only works
     with the native Perl integer values (IV) which is not usually what I want.
 
+- [Proc::Memory](https://metacpan.org/pod/Proc::Memory)
+
+    BASIC style Peek/Poke via [Alien::libvas](https://metacpan.org/pod/Alien::libvas).
+
 # AUTHOR
 
 Graham Ollis <plicease@cpan.org>
