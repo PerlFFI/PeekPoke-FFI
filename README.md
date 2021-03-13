@@ -1,4 +1,4 @@
-# PeekPoke::FFI [![Build Status](https://travis-ci.org/PerlFFI/PeekPoke-FFI.svg)](http://travis-ci.org/PerlFFI/PeekPoke-FFI) ![windows](https://github.com/PerlFFI/PeekPoke-FFI/workflows/windows/badge.svg) ![macos](https://github.com/PerlFFI/PeekPoke-FFI/workflows/macos/badge.svg)
+# PeekPoke::FFI ![linux](https://github.com/PerlFFI/PeekPoke-FFI/workflows/linux/badge.svg) ![windows](https://github.com/PerlFFI/PeekPoke-FFI/workflows/windows/badge.svg) ![macos](https://github.com/PerlFFI/PeekPoke-FFI/workflows/macos/badge.svg)
 
 Perl extension for reading and writing to arbitrary memory locations
 
