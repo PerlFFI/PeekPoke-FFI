@@ -2,4 +2,7 @@ PeekPoke-FFI-*
 /.build/
 *.swp
 
-
+/PeekPoke-FFI-*
+/.build
+*.old
+*.orig
